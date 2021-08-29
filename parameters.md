@@ -86,6 +86,6 @@ Which filters to apply to image generated before each round.
 -----
 
 ### `solid-fill`
-A hex color code (`#651fff`) to fill the empty starter canvas with. This option may have little to no effect on the output, depending on the `rounds`, `optimizer`, `step-size`, and `augments` values used; high rounds and step-sizes will completely obliterate the starter canvas in most cases, and some augments like ColorJitter or Desaturate alter colors so significantly that the starter color is irrelevant.
+A hex color code (like `#651fff`) to fill the empty starter canvas with. This option may have little to no effect on the output, depending on the `rounds`, `optimizer`, `step-size`, and `augments` values used; high rounds and step-sizes will completely obliterate the starter canvas in most cases, and some augments like ColorJitter or Desaturate alter colors so significantly that the starter color is irrelevant.
 
 Additionally, this option draws a small square in the center of the image, filled with the inverse of the `solid-fill:` color. This is to help the bot recognize the significance of the `solid-fill:` value with contrast, and to help it "latch on" to the center of the image in order to grow outwards from there.
