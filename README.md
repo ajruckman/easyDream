@@ -66,7 +66,7 @@ Most parameters are optional, and have reasonable defaults.
 
 ### [Parameter explanations](#parameter-explanations)
 
-&nbsp;
+See [Parameters](parameters).
 
 ### [Keywords to try](#keywords)
 
