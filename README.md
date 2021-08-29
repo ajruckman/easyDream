@@ -1,5 +1,6 @@
 # easyDream
 
+
 ### [Commands](#commands)
 
 - `/imagine (description)` - create an image from a description (the "prompt"). For example: `/imagine ethereal orange waterfall`
@@ -27,12 +28,12 @@ Or on mobile, tap the image, then click the Share button, and copy the link to y
 
 easyDream uses **slash commands** rather than text commands. Slash commands make it easy to see the syntax for the command you want to run, and once you get the hang of them, they are much easier to use.
 
-To use an easyDream command, start by typing `/` (forward slash). A menu will appear. This menu likely has other 
+To use an easyDream command, start by typing `/` (forward slash), and then the name of the [easyDream command](commands) you want to use. 
 
 ### Parameter explanations
 
 ### Examples
 
-### Keywords to try
+### [Keywords to try](#keywords)
 
 These keywords can be used in `/imagine` or `/envision` to make some really cool images.
