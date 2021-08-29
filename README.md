@@ -56,13 +56,18 @@ Examples for `/imagine idea:`...
 
 | neon smog | sapphire radiance | lava cliff | explosion nebula | melting spaceship | spiderweb abyss darkness |
 | --- | --- | --- | --- | --- | --- |
-| ![neon smog](https://cdn.discordapp.com/attachments/881625677349142528/881643419032756254/neon_smog.png)| ![sapphire radiance](https://cdn.discordapp.com/attachments/872973086654332989/881629324455837766/sapphire_radiance.png)| ![lava cliff](https://cdn.discordapp.com/attachments/872973086654332989/881644424663294052/lava_cliff.png)| ![explosion nebula](https://cdn.discordapp.com/attachments/872973086654332989/881646300104380476/explosion_nebula.png)| ![melting spaceship](https://cdn.discordapp.com/attachments/872973086654332989/881646845275811881/melting_spaceship.png) | ![spiderweb abyss darkness](https://cdn.discordapp.com/attachments/872973086654332989/881339740752842812/spiderweb_abyss_darkness.png) |
+| ![neon smog](https://cdn.discordapp.com/attachments/881625677349142528/881643419032756254/neon_smog.png) | ![sapphire radiance](https://cdn.discordapp.com/attachments/872973086654332989/881629324455837766/sapphire_radiance.png) | ![lava cliff](https://cdn.discordapp.com/attachments/872973086654332989/881644424663294052/lava_cliff.png) | ![explosion nebula](https://cdn.discordapp.com/attachments/872973086654332989/881646300104380476/explosion_nebula.png) | ![melting spaceship](https://cdn.discordapp.com/attachments/872973086654332989/881646845275811881/melting_spaceship.png) | ![spiderweb abyss darkness](https://cdn.discordapp.com/attachments/872973086654332989/881339740752842812/spiderweb_abyss_darkness.png) |
 
 Examples for `/envision image:(bird image) idea:`...
 
-| Bird image (`image` parameter) |
-| --- |
-| <img src="https://camo.githubusercontent.com/b0fc8f611035283b2d7fd4c579eee138ac8d9b8a6cca0770c264a7f0897b9689/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3838313632353637373334393134323532382f3838313634393132343435363430373134302f303354422d4b494e47464953484552312d6d656469756d537175617265417433582e706e67" alt="" data-canonical-src="https://cdn.discordapp.com/attachments/881625677349142528/881649124456407140/03TB-KINGFISHER1-mediumSquareAt3X.png" style="max-width:196"> |
+| Bird image (`image` parameter) | sapphire radiance | lava cliff | explosion nebula | melting spaceship | spiderweb abyss darkness |
+| --- | --- | --- | --- | --- | --- |
+| ![Start image (the `image:` parameter)](https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png) | ![steampunk](https://cdn.discordapp.com/attachments/872973086654332989/881652650645532752/steampunk.png) | ![high calibre rifle rounds](https://cdn.discordapp.com/attachments/872973086654332989/881648879873982484/high_calibre_rifle_rounds.png) | ![scifi robot](https://cdn.discordapp.com/attachments/872973086654332989/881649097566740480/scifi_robot.png) | ![long black veil](https://cdn.discordapp.com/attachments/872973086654332989/881650310894981151/long_black_veil.png) | ![star wars](https://cdn.discordapp.com/attachments/872973086654332989/881652950408261702/star_wars.png) |
+
+
+| Bird image (`image` parameter) | moon presence |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+|  | ![https://cdn.discordapp.com/attachments/872973086654332989/881648734826541107/moon_presence.png]() |  |  |  |  |
 
 &nbsp;
 
