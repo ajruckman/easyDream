@@ -5,9 +5,9 @@
 
 ### [Commands](#commands)
 
-- `/imagine (description)` - create an image from a description (the "prompt"). For example: `/imagine ethereal orange waterfall`
-- `/envision (image link) (description)` - morph an image to make it look like the description.
-- `/meld (image link #1) (image link #2)` - meld some parts of the image in `link #2` into `#link 1`.
+- `/imagine (description)` - create an image from a description (the "prompt"). For example: `/imagine idea:ethereal orange waterfall`
+- `/envision image:(image link) idea:(description)` - morph an image to make it look like the description.
+- `/meld start:(image link #1) end:(image link #2)` - meld some parts of the image in `link #2` into `#link 1`.
 
 &nbsp;
 
