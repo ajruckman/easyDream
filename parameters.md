@@ -62,4 +62,4 @@ The bot will identify features in this image and integrate those features into t
 
 You can specify multiple idea image URLs with `+`. The bot will identify features in all specified idea images.
 
-For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work. See [Use images in commands](../#use-images) for how to upload images to Discord.
+For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work. See [Use images in commands](/#use-images) for how to upload images to Discord.
