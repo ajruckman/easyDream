@@ -50,7 +50,7 @@ Most parameters are optional, and have reasonable defaults.
 
 ### Examples
 
-See ![Examples](examples)
+See [Examples](examples)
 
 &nbsp;
 
