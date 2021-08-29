@@ -58,7 +58,7 @@ Examples for `/imagine idea:`...
 
 Examples for `/envision image:https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png idea:`...
 
-| Bird image (`image:` parameter) | steampunk | high calibre rifle rounds | scifi robot | long black veil | star wars |
+| Start image | steampunk | high calibre rifle rounds | scifi robot | long black veil | star wars |
 | --- | --- | --- | --- | --- | --- |
 | ![Start image (the `image:` parameter)](https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png) | ![steampunk](https://cdn.discordapp.com/attachments/872973086654332989/881652650645532752/steampunk.png) | ![high calibre rifle rounds](https://cdn.discordapp.com/attachments/872973086654332989/881648879873982484/high_calibre_rifle_rounds.png) | ![scifi robot](https://cdn.discordapp.com/attachments/872973086654332989/881649097566740480/scifi_robot.png) | ![long black veil](https://cdn.discordapp.com/attachments/872973086654332989/881650310894981151/long_black_veil.png) | ![star wars](https://cdn.discordapp.com/attachments/872973086654332989/881652950408261702/star_wars.png) |
 
