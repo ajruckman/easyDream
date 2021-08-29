@@ -24,9 +24,9 @@ Some presets require features that only patrons have access to.
 The size (width and height) in pixels of the output image. Limited to 196 for non-patrons.
 
 High size values often cause the output to "fall apart" and lose cohesion. To create a cohesive but large image, you may want to start with a small `/imagine`. Then you can work your way up to a higher resolution using `/envision` like so:
-1. `/imagine idea:planets exploding` -> `https://discordapp.com/.../planets_exploding.png` → ID `...1`
-2. `/envision image:https://discordapp.com/...1/planets_exploding.png idea:planets exploding size:256` → ID `...2`
-3. `/envision image:https://discordapp.com/...2/planets_exploding.png idea:planets exploding size:384` → ID `...3`
+1. `/imagine idea:planets exploding` -> `https://discordapp.com/.../planets_exploding.png` 🠖 ID `...1`
+2. `/envision image:https://discordapp.com/...1/planets_exploding.png idea:planets exploding size:256` 🠖 ID `...2`
+3. `/envision image:https://discordapp.com/...2/planets_exploding.png idea:planets exploding size:384` 🠖 ID `...3`
 4. `/envision image:https://discordapp.com/...3/planets_exploding.png idea:planets exploding size:512`
 
 -----
