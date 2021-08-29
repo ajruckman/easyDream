@@ -3,7 +3,7 @@
 ![Examples](https://cdn.discordapp.com/attachments/881625677349142528/881634798580432956/monage1-comp.png)
 
 
-### [Commands](#commands)
+### Commands
 
 - `/imagine (description)` - create an image from a description (the "prompt"). For example: `/imagine ethereal orange waterfall`
 - `/envision (image link) (description)` - morph an image to make it look like the description.
@@ -11,7 +11,7 @@
 
 &nbsp;
 
-### [Use images in commands](#use-images)
+### Use images in commands
 
 For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work.
 
@@ -30,7 +30,7 @@ Or on mobile, tap the image, then click the Share button, and copy the link to y
 
 &nbsp;
 
-### [Slash commands 101](#slash-commands)
+### Slash Commands 101
 
 easyDream uses **slash commands** rather than text commands. Slash commands make it easy to see the syntax for the command you want to run, and once you get the hang of them, they are much easier to use.
 
@@ -50,11 +50,11 @@ Most parameters are optional, and have reasonable defaults.
 
 ### Examples
 
-See [Examples](examples)
+See Examples
 
 &nbsp;
 
-### [Keywords to try](#keywords)
+### Keywords to try
 
 These keywords can be used in the `idea` parameter for `/imagine` or `/envision` to make some really cool images:
 - iridescent, prismatic, ethereal, neon
