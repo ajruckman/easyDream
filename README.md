@@ -28,7 +28,7 @@ Or on mobile, tap the image, then click the Share button, and copy the link to y
 
 easyDream uses **slash commands** rather than text commands. Slash commands make it easy to see the syntax for the command you want to run, and once you get the hang of them, they are much easier to use.
 
-To use an easyDream command, start by typing `/` (forward slash), and then the name of the [easyDream command](commands) you want to use. 
+To use an easyDream command, start by typing `/` (forward slash), and then the name of the [easyDream command](#commands) you want to use. 
 
 ### Parameter explanations
 
