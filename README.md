@@ -76,7 +76,7 @@ These keywords can be used in the `idea` parameter for `/imagine` or `/envision`
 - iridescent, prismatic, ethereal, neon
 - chasm, abyss, rift
 - nebula, galaxy, stardust
-- underwater, hall
+- underwater, hall, sci-fi
 - darkness, vapor, mist
 - lava, honeycomb, bubble
 - amethyst, azurite, malachite, obsidian, gold, ruby, sapphire
