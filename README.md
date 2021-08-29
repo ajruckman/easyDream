@@ -68,6 +68,8 @@ Most parameters are optional, and have reasonable defaults.
 
 See [Parameters](parameters).
 
+&nbsp;
+
 ### [Keywords to try](#keywords)
 
 These keywords can be used in the `idea` parameter for `/imagine` or `/envision` to make some really cool images:
