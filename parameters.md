@@ -56,6 +56,8 @@ For `/envision`, this parameter is named `image`. For `/meld`, this parameter is
 
 For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work.
 
+-----
+
 ### `idea-image` / `end`
 An image version of an idea, as opposed to a text idea. Must be URLs of images uploaded to Discord.
 
@@ -64,3 +66,10 @@ The bot will identify features in this image and integrate those features into t
 You can specify multiple idea image URLs with `+`. The bot will identify features in all specified idea images.
 
 For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work. See [Use images in commands](/easyDream#use-images-in-commands) for how to upload images to Discord.
+
+-----
+
+### `solid-fill`
+A hex color code (`#651fff`) to fill the empty starter canvas with. This option may have little to no effect on the output, depending on the `rounds`, `optimizer`, `step-size`, and `augments` values used; high rounds and step-sizes will completely obliterate the starter canvas in most cases, and some augments like ColorJitter or Desaturate alter colors so significantly that the starter color is irrelevant.
+
+Additionally, this option draws a small square in the center of the image, filled with the inverse of the `solid-fill:` color. This is to help the bot recognize the significance of the `solid-fill:` value with contrast, and to help it "latch on" to the center of the image in order to grow outwards from there.
