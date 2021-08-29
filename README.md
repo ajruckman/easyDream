@@ -78,3 +78,4 @@ These keywords can be used in the `idea` parameter for `/imagine` or `/envision`
 - darkness, vapor, mist
 - lava, honeycomb, bubble
 - amethyst, azurite, malachite, obsidian, gold, ruby, sapphire
+- yeti, alduin, peacock
