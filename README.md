@@ -51,7 +51,9 @@ easyDream uses **slash commands** rather than text commands. Slash commands make
 
 To use an easyDream command, start by typing `/` (forward slash), and then the name of the [easyDream command](#commands) you want to use. 
 Each command has 1 or 2 *required* parameters. You will be prompted to enter these first. After you type a value for one parameter, press tab to set another one.
+
 ![Required parameter for imagine](https://cdn.discordapp.com/attachments/881625677349142528/881638189369020456/unknown.png)
+
 Most parameters are optional, and have reasonable defaults.
 
 &nbsp;
