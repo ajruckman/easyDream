@@ -64,7 +64,7 @@ Examples for `/envision image:https://cdn.discordapp.com/attachments/88162567734
 
 &nbsp;
 
-See more examples at [Examples](examples).
+See more examples with parameters at [Examples](examples).
 
 &nbsp;
 
