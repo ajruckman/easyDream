@@ -12,6 +12,16 @@ For safety reasons, easyDream can only see images that are hosted on Discord. Tr
 
 This is an example of a link to an image hosted on Discord: https://cdn.discordapp.com/attachments/881625677349142528/881626536762015775/image0.png
 
+To use your own images with easyDream, you must first upload them to Discord. You can do this a few ways:
+- Saving the image as a file, then dragging and dropping it into the Discord window.
+- Saving the image as a file, then clicking the "+" icon to the left of the box where you type in Discord messages, then uploading the image.
+- Right clicking an image in your web browser, then clicking "Copy image", then pasting (Ctrl+V or Cmd+V) in the Discord window.
+
+Once you have your image on Discord, you can get its link by right clicking on the image and clicking "Copy link":
+
+![Where to click to Copy Link](https://cdn.discordapp.com/attachments/881625677349142528/881628628641792030/unknown.png)
+
+Or on mobile, tap the image, then click the Share button, and copy the link to your clipboard.
 
 ### Parameter explanations
 
