@@ -20,6 +20,17 @@ Some presets require features that only patrons have access to.
 
 -----
 
+### `size`
+The size (width and height) in pixels of the output image. Limited to 196 for non-patrons.
+
+High size values often cause the output to "fall apart" and lose cohesion. To create a cohesive but large image, you may want to start with a small `/imagine`. Then you can work your way up to a higher resolution using `/envision` like so:
+1. `/imagine idea:planets exploding` -> `https://cdn.discordapp.com/attachments/.../planets_exploding.png` -> 1
+2. `/envision image:https://cdn.discordapp.com/attachments/1/planets_exploding.png idea:planets exploding size:256` -> 2
+3. `/envision image:https://cdn.discordapp.com/attachments/2/planets_exploding.png idea:planets exploding size:384` -> 3
+4. `/envision image:https://cdn.discordapp.com/attachments/3/planets_exploding.png idea:planets exploding size:512`
+
+-----
+
 ### `rounds`
 How long to dream. Higher values produce more refined images, up to a plateau point depending on the optimizer and output size.
 
@@ -66,6 +77,11 @@ The bot will identify features in this image and integrate those features into t
 You can specify multiple idea image URLs with `+`. The bot will identify features in all specified idea images.
 
 For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work. See [Use images in commands](/easyDream#use-images-in-commands) for how to upload images to Discord.
+
+-----
+
+### `augments`
+Which filters to apply to image generated before each round.
 
 -----
 
