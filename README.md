@@ -1,6 +1,6 @@
 # easyDream
 
-![Examples](https://cdn.discordapp.com/attachments/881625677349142528/881634574260650054/monage1-comp.png)
+![Examples](https://cdn.discordapp.com/attachments/881625677349142528/881634798580432956/monage1-comp.png)
 
 
 ### [Commands](#commands)
