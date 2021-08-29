@@ -24,6 +24,7 @@ Some presets require features that only patrons have access to.
 How long to dream. Higher values produce more refined images, up to a plateau point depending on the optimizer and output size.
 
 Here is how the prompt `/imagine idea:sci-fi cave` changes for increasing `rounds:`:
+
 | 5 | 10 | 30 | 40 | 50 |
 | --- | --- | --- | --- | --- |
 | ![](https://cdn.discordapp.com/attachments/872973086654332989/881662948043530270/sci-fi_cave.png) | ![](https://cdn.discordapp.com/attachments/872973086654332989/881663223231827968/sci-fi_cave.png) | ![](https://cdn.discordapp.com/attachments/872973086654332989/881663025600397382/sci-fi_cave.png) | ![](https://cdn.discordapp.com/attachments/872973086654332989/881663193901064202/sci-fi_cave.png) | ![](https://cdn.discordapp.com/attachments/872973086654332989/881663070877913088/sci-fi_cave.png) |
