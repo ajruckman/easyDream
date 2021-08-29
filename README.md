@@ -1,5 +1,7 @@
 # easyDream
 
+![Examples](https://cdn.discordapp.com/attachments/742533769042329650/876621695983689728/montage.png)
+
 
 ### [Commands](#commands)
 
