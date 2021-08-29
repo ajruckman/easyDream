@@ -1,12 +1,12 @@
 # easyDream
 
-### Commands
+### [Commands](#commands)
 
 - `/imagine (description)` - create an image from a description (the "prompt"). For example: `/imagine ethereal orange waterfall`
 - `/envision (image link) (description)` - morph an image to make it look like the description.
 - `/meld (image link #1) (image link #2)` - meld some parts of the image in `link #2` into `#link 1`.
 
-### How to use images with easyDream
+### [How to use images with easyDream](#use-images)
 
 For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* hosted on Discord will not work.
 
@@ -22,6 +22,12 @@ Once you have your image on Discord, you can get its link by right clicking on t
 ![Where to click to Copy Link](https://cdn.discordapp.com/attachments/881625677349142528/881628628641792030/unknown.png)
 
 Or on mobile, tap the image, then click the Share button, and copy the link to your clipboard.
+
+### [Slash commands 101](#slash-commands)
+
+easyDream uses **slash commands** rather than text commands. Slash commands make it easy to see the syntax for the command you want to run, and once you get the hang of them, they are much easier to use.
+
+To use an easyDream command, start by typing `/` (forward slash). A menu will appear. This menu likely has other 
 
 ### Parameter explanations
 
