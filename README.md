@@ -24,15 +24,13 @@ Examples for `/envision image:https://cdn.discordapp.com/attachments/88162567734
 | --- | --- | --- | --- | --- | --- |
 | ![Start image (the `image:` parameter)](https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png) | ![steampunk](https://cdn.discordapp.com/attachments/872973086654332989/881652650645532752/steampunk.png) | ![high calibre rifle rounds](https://cdn.discordapp.com/attachments/872973086654332989/881648879873982484/high_calibre_rifle_rounds.png) | ![scifi robot](https://cdn.discordapp.com/attachments/872973086654332989/881649097566740480/scifi_robot.png) | ![long black veil](https://cdn.discordapp.com/attachments/872973086654332989/881650310894981151/long_black_veil.png) | ![star wars](https://cdn.discordapp.com/attachments/872973086654332989/881652950408261702/star_wars.png) |
 
+See more examples with parameters at [Examples](examples) (coming soon).
+
 &nbsp;
 
 ### [Parameter explanations](#parameter-explanations)
 
 See [Parameters](parameters).
-
-&nbsp;
-
-See more examples with parameters at [Examples](examples) (coming soon).
 
 &nbsp;
 
