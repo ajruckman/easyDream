@@ -43,7 +43,7 @@ Here is how the prompt `/imagine idea:sci-fi cave` changes for increasing `round
 -----
 
 ### `step-size`
-How rapidly to think. Higher `step-size` values allow for quality results in fewer `rounds`. However, unreasonbly high `step-size` values produce lower-quality images that are less like the prompt.
+How rapidly to think. Higher `step-size` values allow for quality results in fewer `rounds`. However, unreasonably high `step-size` values produce lower-quality images that are less like the prompt.
 
 Changes to `step-size` result in totally different results, unlike changes to `rounds` which can be adjusted linearly.
 
@@ -81,7 +81,40 @@ For safety reasons, easyDream can only see images that are hosted on Discord. Tr
 -----
 
 ### `augments`
-Which filters to apply to image generated before each round.
+Which filters to apply to image generated before each round. Separate multiple augments with `+`. The same augment can be used multiple times.
+
+The default augments used to create every image are: `Af`+`Pe`+`Ji`+`Er`.
+
+The following augments are available:
+- `Ji`: ColorJitter
+- `Sh`: RandomSharpness
+- `Gn`: RandomGuassianNoise
+- `Gb`: RandomGuassianBlur
+- `Pe`: RandomPerspective
+- `Ro`: Random Rotation
+- `Af`: Random Affine
+- `Et`: Random Elastic Transform
+- `Ts`: Random Thin Plate Spline
+- `Cr`: Random Crop
+- `Er`: Random Erasing
+- `Re`: Random Resized Crop
+- `Gr`: Random Grayscale
+- `Iv`: Random Invert
+- `Pz`: Random Posterize
+- `Sz`: Random Solarize
+- `Fe`: Random Fisheye
+- `None`: A dummy augment used to do nothing to the image
+
+The order of augments matters significantly. For example, using `Gr`+`Ji` is very different than using `Ji`+`Gr`.
+- `Gr`+`Ji` will convert the image to grayscale, then add random colors.
+- `Ji`+`Gr` will add random colors, then turn the image to grayscale, effectively just adding noise to the image.
+- `Ji`+`Gr`+`Ji` will add random colors, turn the image to grayscale, then add more random colors to the grayscale image.
+
+For better results with specific prompts, you may wish to omit the `Ji` augment, as it can mess with the colors of the result.
+
+Use the `None` augment if you don't want to use any augments (ideal for high-fidelity images).
+
+See this [Kornia docs page](https://kornia.readthedocs.io/en/latest/augmentation.module.html) for ***visual examples*** of what these filters do.
 
 -----
 
