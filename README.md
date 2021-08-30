@@ -66,7 +66,7 @@ Each command has 1 or 2 *required* parameters. You will be prompted to enter the
 
 ![Required parameter for imagine](https://cdn.discordapp.com/attachments/881625677349142528/881638189369020456/unknown.png)
 
-Most parameters are optional, and have reasonable defaults. The most important parameters are `size:` to control the output size, and `rounds:` to control how long to dream; higher `rounds` often means higher quality results.
+Most parameters are optional, and have reasonable defaults. The most important parameters are `size:` to control the output size in pixels, and `rounds:` to control how long to dream. Higher `rounds` often means higher quality results; see [Parameters](parameters) for more complete info.
 
 &nbsp;
 
