@@ -1,1 +1,3 @@
-### Coming soon
+# easyDream command examples
+
+Coming soon :)
