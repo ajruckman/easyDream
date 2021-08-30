@@ -26,7 +26,13 @@ Examples for `/envision image:https://cdn.discordapp.com/attachments/88162567734
 
 &nbsp;
 
-See more examples with parameters at [Examples](examples).
+### [Parameter explanations](#parameter-explanations)
+
+See [Parameters](parameters).
+
+&nbsp;
+
+See more examples with parameters at [Examples](examples) (coming soon).
 
 &nbsp;
 
@@ -61,12 +67,6 @@ Each command has 1 or 2 *required* parameters. You will be prompted to enter the
 ![Required parameter for imagine](https://cdn.discordapp.com/attachments/881625677349142528/881638189369020456/unknown.png)
 
 Most parameters are optional, and have reasonable defaults.
-
-&nbsp;
-
-### [Parameter explanations](#parameter-explanations)
-
-See [Parameters](parameters).
 
 &nbsp;
 
