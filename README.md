@@ -68,7 +68,7 @@ Most parameters are optional, and have reasonable defaults.
 
 &nbsp;
 
-### [Keywords to try](#keywords)
+### [Keywords to try](#keywords-to-try)
 
 These keywords can be used in the `idea` parameter for `/imagine` or `/envision` to make some really cool images:
 - iridescent, prismatic, ethereal, neon
