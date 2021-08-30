@@ -12,13 +12,13 @@
 
 ### [Examples](#examples)
 
-Examples for `/imagine idea:`...
+Imagine examples (`/imagine idea:...`)
 
 | neon smog | sapphire radiance | lava cliff | explosion nebula | melting spaceship | spiderweb abyss darkness |
 | --- | --- | --- | --- | --- | --- |
 | ![neon smog](https://cdn.discordapp.com/attachments/881625677349142528/881643419032756254/neon_smog.png) | ![sapphire radiance](https://cdn.discordapp.com/attachments/872973086654332989/881629324455837766/sapphire_radiance.png) | ![lava cliff](https://cdn.discordapp.com/attachments/872973086654332989/881644424663294052/lava_cliff.png) | ![explosion nebula](https://cdn.discordapp.com/attachments/872973086654332989/881646300104380476/explosion_nebula.png) | ![melting spaceship](https://cdn.discordapp.com/attachments/872973086654332989/881646845275811881/melting_spaceship.png) | ![spiderweb abyss darkness](https://cdn.discordapp.com/attachments/872973086654332989/881339740752842812/spiderweb_abyss_darkness.png) |
 
-Examples for `/envision image:https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png idea:`...
+Envision examples (`/envision image:https://cdn.discordapp.com/attachments/881625677349142528/881653311785287710/kingfisher.png idea:...`):
 
 | `image:` input | steampunk | high calibre rifle rounds | scifi robot | long black veil | star wars |
 | --- | --- | --- | --- | --- | --- |
