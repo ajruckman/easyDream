@@ -2,6 +2,9 @@
 
 [![Support Server](https://img.shields.io/discord/872973048318410752.svg?label=Support%20Server&logo=Discord&colorB=5D3FD3&style=flat)](https://discord.gg/zGZemXWAX6)
 
+<a href="https://www.patreon.com/bePatron?u=53450649" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+
+
 ![Examples](https://cdn.discordapp.com/attachments/881625677349142528/881634798580432956/monage1-comp.png)
 
 ### [Commands](#commands)
