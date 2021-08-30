@@ -65,7 +65,7 @@ An image to start from, as opposed to starting from a blank canvas. Must be a UR
 
 For `/envision`, this parameter is named `image`. For `/meld`, this parameter is named `start`.
 
-For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work.
+For safety reasons, easyDream can only see images that are hosted on Discord. Trying to give easyDream a link to an image *not* uploaded to Discord will not work. See [Use images in commands](/easyDream#use-images-in-commands) for how to upload images to Discord.
 
 -----
 
