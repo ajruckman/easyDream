@@ -10,44 +10,39 @@
     {% include head-custom.html %}
     
     <style>
-    ul.navbar {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
+      ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
 
-    ul.navbar li {
-      float: left;
-    }
+      ul.navbar li {
+        float: left;
+      }
 
-    ul.navbar li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
+      ul.navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-    ul.navbar li a:hover {
-      background-color: #111;
-    }
-  </style>
+      ul.navbar li a:hover {
+        background-color: #111;
+      }
+    </style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
-
       <ul class="navbar">
-        <li><a href="/">Home</a></li>
+        <li><a href="/easyDream">Home</a></li>
         <li><a href="parameters">Parameters</a></li>
-        <li><a href="examples">Examlpes</a></li>
+        <li><a href="examples">Examples</a></li>
       </ul>
 
-      
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
