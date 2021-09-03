@@ -103,6 +103,7 @@ The following augments are available:
 - `Pz`: Random Posterize
 - `Sz`: Random Solarize
 - `Fe`: Random Fisheye
+- `Hf`: Random Horizontal Flip
 - `None`: A dummy augment used to do nothing to the image
 
 The order of augments matters significantly. For example, using `Gr`+`Ji` is very different than using `Ji`+`Gr`.
