@@ -52,7 +52,7 @@ Changes to `step-size` result in totally different results, unlike changes to `r
 ### `optimizer`
 Which algorithm used to 'zero-in' on the output result. Different optimizers produce dramatically different results, and each optimizer has a different ideal `step-size` value for a given `rounds` value.
 
-`/imagine` defaults to the `RAdam` optimizer. This optimizer can produce good results in few rounds, and I have found it to be the best for from-scratch image generation.
+`/imagine` defaults to the `AdamP` optimizer. I have found it to be the best for from-scratch image generation.
 
 `/envision` and `/meld` default to the `RMSprop` optimizer. I have found that this optimizer is great for morphing starter images quickly, but not so great for generating images from scratch.
 
