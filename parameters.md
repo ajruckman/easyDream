@@ -60,6 +60,15 @@ See [this Algorithmia blog post](https://algorithmia.com/blog/introduction-to-op
 
 -----
 
+### `detail`
+How many times the system will attempt to add features at each round.
+
+The default value is a function of the output image pixel count. 196x196 images will use a value of 24; 512x512 images will use a value of 64; with other resolutions using a linear extrapolation of these values.
+
+Using a `detail` too low will result in a minimalistic image which doesn't resemble the prompts. Using a `detail` too high will result in a chaotic image with some features from the prompts but jumbled and incohesive.
+
+-----
+
 ### `initial-image` / `image` / `start`
 An image to start from, as opposed to starting from a blank canvas. Must be a URL of an image uploaded to Discord.
 
