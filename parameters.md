@@ -94,6 +94,8 @@ Which filters to apply to image generated before each round. Separate multiple a
 
 The default augments used to create every image are: `Hf` + `Af` + `Pe` + `Ji`.
 
+#### Augment options
+
 The following augments are available:
 - `Ji`: ColorJitter
 - `Sh`: RandomSharpness
@@ -125,6 +127,35 @@ For better results with specific prompts, you may wish to omit the `Ji` augment,
 Use the `None` augment if you don't want to use any augments (ideal for high-fidelity images).
 
 See this [Kornia docs page](https://kornia.readthedocs.io/en/latest/augmentation.module.html) for ***visual examples*** of what these filters do.
+
+#### Augment string format
+
+The default probability for each specified augment to be used per round is 50%. You can change this with a `:x%` specifier, like this: `Ji:50%`
+
+You may also set the parameters for each augment like this: `Af[type:key=value]`. 
+
+`type` may be one of:
+- `i`: integer value (ex: `i:degrees=25`)
+- `f`: floating point value (ex: `f:translate=2.5`)
+- `b`: boolean value (`b:same_on_batch=false` or `b:same_on_batch=true`)
+- `it`: integer tuple (ex: `it:kernel_size=3;7`)
+- `ft`: float tuple (ex: `ft:ratio=0.3;3.3`)
+- `s`: string value (ex: `s:padding_mode=border`)
+
+#### Practical augment strings
+
+Eleuther MSE ZQ:
+```
+HF:50% + AF[i:degrees=30, f:translate=0.1, s:padding_mode=border]:80% + PE[f:distortion_scale=0.2]:40% + JI[f:hue=0.01, f:saturation=0.01]:70%
+```
+Eleuther ST:
+```
+HF:50% + AF[i:degrees=30, f:translate=0.1, s:padding_mode=border]:80% + PE[f:distortion_scale=0.2]:40% + JI[f:hue=0.01, f:saturation=0.01]:70% + GR:10%
+```
+justinjohn0306 updated:
+```
+HF:50% + SH[f:sharpness=0.3]:40% + AF[i:degrees=30, f:translate=0.1, s:padding_mode=border]:80% + PE[f:distortion_scale=0.2]:40% + JI[f:hue=0.01, f:saturation=0.01]:70%
+```
 
 -----
 
