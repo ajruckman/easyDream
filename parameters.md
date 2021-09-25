@@ -90,7 +90,7 @@ For safety reasons, easyDream can only see images that are hosted on Discord. Tr
 -----
 
 ## `mask-image`
-An image with an alpha (transparency) channel used to constraint each pixel in the result. Must be a URL of an image uploaded to Discord.
+An image with an alpha (transparency) channel used to constrain each pixel in the result. Must be a URL of an image uploaded to Discord.
 
 By default, this will use a naive approach that makes a hard cut at each round. This is not a very intelligent way to mask images. For a more intelligent method, use the `mask-interval` method.
 
