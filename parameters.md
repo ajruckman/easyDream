@@ -89,6 +89,24 @@ For safety reasons, easyDream can only see images that are hosted on Discord. Tr
 
 -----
 
+## `mask-image`
+An image with an alpha (transparency) channel used to constraint each pixel in the result. Must be a URL of an image uploaded to Discord.
+
+By default, this will use a naive approach that makes a hard cut at each round. This is not a very intelligent way to mask images. For a more intelligent method, use the `mask-interval` method.
+
+Partial transparency will result in partial masking.
+
+-----
+
+## `mask-interval`
+A number specifying how many rounds to wait in between applying `mask-image`. Higher values will apply the `mask-image` less frequently.
+
+A value higher than the value for `rounds` will cause the `mask-image` to never be applied; this would mean that the system would need to wait for more time than the dream will run.
+
+A value too low will cause the system to lose its "momentum" and result in less cohesive results.
+
+-----
+
 ## `augments`
 Which filters to apply to image generated before each round. Separate multiple augments with `+`. The same augment can be used multiple times.
 
