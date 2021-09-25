@@ -103,7 +103,7 @@ A number specifying how many rounds to wait in between applying `mask-image`. Hi
 
 A value higher than the value for `rounds` will cause the `mask-image` to never be applied; this would mean that the system would need to wait for more time than the dream will run.
 
-A value too low will cause the system to lose its "momentum" and result in less cohesive results.
+A value too low will cause the system to lose its "momentum" by applying the `mask-image` too frequently, resulting in less cohesive results.
 
 -----
 
